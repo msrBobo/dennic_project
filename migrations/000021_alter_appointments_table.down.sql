@@ -1,0 +1,1 @@
+ALTER TABLE booked_appointments DROP COLUMN user_id;

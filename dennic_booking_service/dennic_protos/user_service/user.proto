@@ -1,0 +1,92 @@
+syntax = "proto3";
+
+package user;
+
+service UserService {
+  rpc Create(User) returns (User);
+  rpc Update(User) returns (User);
+  rpc Get(GetUserReq) returns (User);
+  rpc ListUsers(ListUsersReq) returns (ListUsersResp);
+  rpc Delete(DeleteUserReq) returns (CheckDeleteUserResp);
+  rpc CheckField(CheckFieldUserReq) returns (CheckFieldUserResp);
+  rpc ChangePassword(ChangeUserPasswordReq) returns (ChangeUserPasswordResp);
+  rpc UpdateRefreshToken(UpdateRefreshTokenUserReq) returns (UpdateRefreshTokenUserResp);
+}
+
+
+message User {
+  string id = 1;
+  uint64 user_order = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string birth_date = 5;
+  string phone_number = 6;
+  string password = 7;
+  string gender = 8;
+  string refresh_token = 9;
+  string image_url = 10;
+  string created_at = 11;
+  string updated_at = 12;
+  string deleted_at = 13;
+}
+
+message CheckFieldUserReq {
+  string field = 1;
+  string value = 2;
+}
+
+message CheckFieldUserResp {
+  bool status = 1;
+}
+
+message CheckDeleteUserResp {
+  bool status = 1;
+}
+
+message GetUserReq {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+message ChangeUserPasswordReq {
+  string phone_number = 1; 
+  string password = 2;
+}
+
+message ChangeUserPasswordResp {
+  bool status = 1;
+}
+
+message DeleteUserReq {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+message ListUsersReq {
+  uint64 page = 1;
+  uint64 limit = 2;
+  bool is_active = 3;
+  string value = 4;
+  string field = 5;
+  string order_by = 6;
+}
+
+message ListUsersResp {
+  repeated User users = 1;
+  uint64 count = 2;
+}
+
+message Empty {
+  
+}
+
+message UpdateRefreshTokenUserReq {
+  string id = 1;
+  string refresh_token = 2;
+}
+
+message UpdateRefreshTokenUserResp {
+  bool status = 1;
+}

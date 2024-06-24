@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+package session;
+
+service SessionService {
+  rpc CreateSession(SessionRequests) returns (Session);
+  rpc GetSessionById(StrReq) returns (Session);
+  rpc DeleteSessionById(StrReq) returns (Empty);
+  rpc DeleteSessionByUserId(StrUserReq) returns (Empty);
+  rpc GetUserSessions(StrUserReq) returns (UserSessionsList);
+  rpc HasUserSession(StrUserReq) returns (SessionExistsResponse);
+}
+
+message Empty {
+}
+
+message SessionExistsResponse {
+  bool is_exists = 1;
+}
+
+message StrReq {
+  string id = 1;
+}
+
+message UserSessionsList {
+  repeated Session userSessions = 1;
+  int32 count = 2;
+}
+
+message StrUserReq {
+  string user_id = 1;
+  bool is_active = 2;
+}
+
+message SessionRequests {
+  string id = 1;
+  string ip_address = 2;
+  string user_id = 3;
+  string fcm_token = 4;
+  string platform_name = 5;
+  string platform_type = 6;
+}
+
+message Session {
+  string id = 1;
+  int32 order = 2;
+  string ip_address = 3;
+  string user_id = 4;
+  string fcm_token = 5;
+  string platform_name = 6;
+  string platform_type = 7;
+  string login_at = 8;
+  string created_at = 9;
+  string updated_at = 10;
+  string deleted_at = 11;
+}

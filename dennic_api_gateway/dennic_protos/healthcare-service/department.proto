@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package healthcare;
+
+service DepartmentService {
+  rpc CreateDepartment(Department) returns (Department);
+  rpc GetDepartmentById(GetReqStrDepartment) returns (Department);
+  rpc GetAllDepartments(GetAllDepartment) returns (ListDepartments);
+  rpc UpdateDepartment(Department) returns (Department);
+    rpc DeleteDepartment(GetReqStrDepartment) returns (StatusDepartment);
+}
+
+message GetAllDepartment {
+  int64 page = 1;
+  int64 limit = 2;
+  string field = 3;
+  string value = 4;
+  string order_by = 5;
+  bool is_active = 6;
+}
+
+message ListDepartments {
+  int64 count = 1;
+  repeated Department departments = 2;
+}
+
+message StatusDepartment {
+  bool status = 1;
+}
+
+message Department{
+  string id = 1;
+  int32 order = 2;
+  string name = 3;
+  string description = 4;
+  string image_url = 5;
+  int32 floor_number = 6;
+  string short_description = 7;
+  string created_at = 8;
+  string updated_at = 9;
+  string deleted_at = 10;
+}
+
+message GetReqStrDepartment{
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}

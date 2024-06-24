@@ -1,0 +1,88 @@
+syntax = "proto3";
+
+package booking_service;
+
+service PatientsService {
+  // patients
+  rpc CreatePatient(CreatePatientReq) returns (Patient);
+  rpc GetPatient(PatientFieldValueReq) returns (Patient);
+  rpc GetAllPatients(GetAllPatientsReq) returns (Patients);
+  rpc UpdatePatient(UpdatePatientReq) returns (Patient);
+  rpc UpdatePhonePatient(UpdatePhoneNumber) returns (PatientStatus);
+  rpc DeletePatient(PatientFieldValueReq) returns (PatientStatus);
+}
+
+message Patient {
+  string id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string birth_date = 4;
+  string gender = 5;
+  string address = 6;
+  string blood_group = 7;
+  string phone_number = 8;
+  string city = 9;
+  string country = 10;
+  string patient_problem = 11;
+  string created_at = 12;
+  string updated_at = 13;
+  string deleted_at = 14;
+}
+
+message Patients {
+  int64 count = 1;
+  repeated Patient patients = 2;
+}
+
+message CreatePatientReq {
+  string id = 1;
+  string first_name = 2;
+  string last_name = 3;
+  string birth_date = 4;
+  string gender = 5;
+  string address = 6;
+  string blood_group = 7;
+  string phone_number = 8;
+  string city = 9;
+  string country = 10;
+  string patient_problem = 11;
+}
+
+message UpdatePatientReq {
+  string field = 1;
+  string value = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string birth_date = 5;
+  string gender = 6;
+  string address = 7;
+  string blood_group = 8;
+  string city = 9;
+  string country = 10;
+  string patient_problem = 11;
+}
+
+message UpdatePhoneNumber {
+  string field = 1;
+  string value = 2;
+  string phone_number = 3;
+}
+
+message PatientFieldValueReq {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+message PatientStatus {
+  bool status = 1;
+}
+
+message GetAllPatientsReq {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+  uint64 page = 4;
+  uint64 limit = 5;
+  string order_by = 6;
+}

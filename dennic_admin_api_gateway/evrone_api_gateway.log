@@ -1,0 +1,880 @@
+2024-05-28T00:07:49.272+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-28T00:07:51.978+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-28T00:07:51.979+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobur/GolandProjects/dennic/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-28T00:08:28.735+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-28T00:08:44.936+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-28T00:08:44.937+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobur/GolandProjects/dennic/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-28T00:09:03.967+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-28T00:09:05.186+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-28T00:09:05.187+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobur/GolandProjects/dennic/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-28T00:09:59.191+0500	INFO	app/main.go:30	Listen: 	{"address": "localhost:9050"}
+2024-05-28T00:10:00.030+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-28T00:10:00.031+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobur/GolandProjects/dennic/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-28T15:57:03.431+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-28T15:57:04.720+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-28T15:57:04.720+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobur/GolandProjects/dennic/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T03:02:13.451+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T03:02:15.285+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T03:02:15.285+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T03:03:16.345+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T03:04:40.041+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T03:04:40.041+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T03:05:01.721+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T03:05:10.168+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp: lookup dennic_user: no such host"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListAdmins
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:285
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T03:05:45.133+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T03:05:45.134+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T03:05:46.741+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T03:05:52.660+0500	WARN	regtool/handle_error.go:20	rpc error: code = DeadlineExceeded desc = context deadline exceeded
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListAdmins
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:285
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T03:05:56.722+0500	WARN	regtool/handle_error.go:20	rpc error: code = DeadlineExceeded desc = context deadline exceeded
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListAdmins
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:285
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T03:06:37.921+0500	WARN	regtool/handle_error.go:20	rpc error: code = DeadlineExceeded desc = context deadline exceeded
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListAdmins
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:285
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T03:08:06.131+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T03:08:06.132+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T03:08:07.911+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T03:36:02.751+0500	WARN	regtool/handle_error.go:20	rpc error: code = DeadlineExceeded desc = context deadline exceeded
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T03:37:46.958+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "string" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T03:38:15.562+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "string" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:07:22.612+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T04:07:22.614+0500	ERROR	app/main.go:32	app run	{"error": "listen tcp :9040: bind: address already in use"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T04:07:28.274+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:07:28.274+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T04:07:31.426+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T04:07:33.508+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:09:05.305+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:09:05.305+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T04:09:07.027+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T04:11:19.256+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:11:19.256+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T04:11:40.319+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T04:22:12.188+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:22:12.189+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T04:22:28.899+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T04:22:39.322+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListPatient
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/patient.go:166
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:22:44.981+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:22:44.981+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T04:23:11.539+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T04:23:14.203+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9090: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListPatient
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/patient.go:166
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:23:57.582+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9080: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListReasons
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/reasons.go:146
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:24:44.290+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9080: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListReasons
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/reasons.go:146
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:24:45.574+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9080: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListReasons
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/reasons.go:146
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:24:46.371+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unavailable desc = connection error: desc = "transport: Error while dialing: dial tcp 127.0.0.1:9080: connect: connection refused"
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).ListReasons
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/reasons.go:146
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:25:58.767+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = object not found
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).Login
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/authorization.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T04:27:36.094+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T04:27:36.095+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T05:00:09.298+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T05:00:10.358+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T05:00:10.359+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T05:00:52.261+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T05:05:57.979+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "supper admin" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:15:24.824+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T05:15:24.824+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T05:15:26.775+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T05:15:44.803+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "supper admin" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:17:32.337+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "supper admin" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:19:27.014+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:19:34.115+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = ERROR: invalid input syntax for type date: "" (SQLSTATE 22007)
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:24:30.758+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = object not found
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).Login
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/authorization.go:71
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:27:26.241+0500	WARN	regtool/handle_error.go:20	incorrect password
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).Login
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/authorization.go:76
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:41:52.283+0500	WARN	regtool/handle_error.go:20	incorrect password
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).Login
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/authorization.go:76
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:42:35.341+0500	WARN	regtool/handle_error.go:20	rpc error: code = Unknown desc = no sql rows
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).UpdateAdmin
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/admin.go:363
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:52:46.350+0500	WARN	regtool/handle_error.go:20	incorrect password
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).Login
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/authorization.go:76
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T05:52:46.689+0500	WARN	regtool/handle_error.go:20	incorrect password
+dennic_admin_api_gateway/api/handlers/regtool.HandleError
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/regtool/handle_error.go:20
+dennic_admin_api_gateway/api/handlers/v1.(*HandlerV1).Login
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/handlers/v1/authorization.go:76
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.NewAuthorizer.func2
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/casbin/casbin.go:32
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+dennic_admin_api_gateway/api.NewRoute.GinTracing.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/api/middleware/tracing.go:31
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/vendor/github.com/gin-gonic/gin/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/snap/go/10585/src/net/http/server.go:3137
+net/http.(*conn).serve
+	/snap/go/10585/src/net/http/server.go:2039
+2024-05-30T06:00:05.669+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T06:00:05.670+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T06:06:26.061+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T06:06:28.157+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T06:06:28.157+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/bobo/go/src/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32
+2024-05-30T17:39:00.995+0500	INFO	app/main.go:30	Listen: 	{"address": ":9040"}
+2024-05-30T17:39:02.152+0500	INFO	app/main.go:41	api gateway service stops
+2024-05-30T17:39:02.152+0500	ERROR	app/main.go:32	app run	{"error": "http: Server closed"}
+main.main.func1
+	/home/ali/Goland/dennic_project/dennic_admin_api_gateway/cmd/app/main.go:32

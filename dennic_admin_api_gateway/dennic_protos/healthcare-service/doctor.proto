@@ -1,0 +1,124 @@
+syntax = "proto3";
+
+package healthcare;
+
+service DoctorService {
+  rpc CreateDoctor(Doctor) returns (Doctor);
+  rpc GetDoctorById(GetReqStrDoctor) returns (DoctorAndDoctorHours);
+  rpc GetAllDoctors(GetAllDoctorS) returns (ListDoctorsAndHours);
+  rpc UpdateDoctor(Doctor) returns (Doctor);
+  rpc DeleteDoctor(GetReqStrDoctor) returns (StatusDoctor);
+  rpc ListDoctorsByDepartmentId(GetReqStrDep) returns (ListDoctors);
+  rpc ListDoctorBySpecializationId(GetReqStrSpec) returns (ListDoctorsAndHours);
+}
+
+message GetReqStrDoctor{
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+message GetReqStrDep {
+  string department_id = 1;
+  bool is_active = 2;
+  int32 page = 3;
+  int32 limit = 4;
+  string field = 5;
+  string value = 6;
+  string order_by = 7;
+}
+
+message GetReqStrSpec {
+  string specialization_id = 1;
+  bool is_active = 2;
+  int32 page = 3;
+  int32 limit = 4;
+  string field = 5;
+  string value = 6;
+  string order_by = 7;
+}
+
+message StatusDoctor {
+  bool status = 1;
+}
+
+message GetAllDoctorS {
+  int64 page = 1;
+  int64 limit = 2;
+  string field = 3;
+  string value = 4;
+  string order_by = 5;
+  bool is_active = 6;
+}
+
+message ListDoctors {
+  int64 count = 1;
+  repeated Doctor doctors = 2;
+}
+
+message ListDoctorsAndHours {
+  int64 count = 1;
+  repeated DoctorAndDoctorHours doctor_hours = 2;
+}
+
+message DoctorAndDoctorHours {
+  string id = 1;
+  int32 order = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string image_url = 5;
+  string gender = 6;
+  string birth_date = 7;
+  string phone_number = 8;
+  string email = 9;
+  string password = 10;
+  string address = 11;
+  string city = 12;
+  string country = 13;
+  float salary = 14;
+  string start_time = 15;
+  string finish_time = 16;
+  string day_of_week = 17;
+  string bio = 18;
+  string start_work_date = 19;
+  string end_work_date = 20;
+  int32 work_years = 21;
+  string department_id = 22;
+  int32 room_number = 23;
+  string created_at = 24;
+  string updated_at = 25;
+  string deleted_at = 26;
+  repeated DoctorSpec specializations = 27;
+}
+
+message Doctor {
+  string id = 1;
+  int32 order = 2;
+  string first_name = 3;
+  string last_name = 4;
+  string image_url = 5;
+  string gender = 6;
+  string birth_date = 7;
+  string phone_number = 8;
+  string email = 9;
+  string password = 10;
+  string address = 11;
+  string city = 12;
+  string country = 13;
+  float salary = 14;
+  string bio = 15;
+  string start_work_date = 16;
+  string end_work_date = 17;
+  int32 work_years = 18;
+  string department_id = 19;
+  int32 room_number = 20;
+  string created_at = 21;
+  string updated_at = 22;
+  string deleted_at = 23;
+  repeated DoctorSpec specializations = 24;
+}
+
+message DoctorSpec {
+  string id = 1;
+  string name = 2;
+}

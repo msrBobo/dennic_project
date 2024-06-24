@@ -1,0 +1,49 @@
+syntax = "proto3";
+
+package healthcare;
+
+service SpecializationService {
+  rpc CreateSpecialization(Specializations) returns (Specializations);
+  rpc GetSpecializationById(GetReqStrSpecialization) returns (Specializations);
+  rpc GetAllSpecializations(GetAllSpecialization) returns (ListSpecializations);
+  rpc UpdateSpecialization(Specializations) returns (Specializations);
+  rpc DeleteSpecialization(GetReqStrSpecialization) returns (StatusSpecialization);
+}
+
+message Specializations {
+  string id = 1;
+  int32 order = 2;
+  string name = 3;
+  string description = 4;
+  string department_id = 5;
+  string image_url = 6;
+  string created_at = 7;
+  string updated_at = 8;
+  string deleted_at = 9;
+}
+
+message GetReqStrSpecialization{
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+message ListSpecializations {
+  int32 count = 1;
+  repeated Specializations specializations = 2;
+}
+
+message StatusSpecialization {
+  bool status = 1;
+}
+
+
+message GetAllSpecialization {
+  int32 page = 1;
+  int32 limit = 2;
+  bool is_active = 3;
+  string field = 4;
+  string value = 5;
+  string order_by = 6;
+  string department_id = 7;
+}

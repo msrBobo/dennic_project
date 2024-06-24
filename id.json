@@ -1,0 +1,2 @@
+{"ok":true,"result":[{"update_id":297880785,
+  "message":{"message_id":2,"from":{"id":1434654411,"is_bot":false,"first_name":"To'rakhon","last_name":"Jo'rakhonov","username":"Torakhon_0505","language_code":"en"},"chat":{"id":1434654411,"first_name":"To'rakhon","last_name":"Jo'rakhonov","username":"Torakhon_0505","type":"private"},"date":1716630016,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}

@@ -1,0 +1,101 @@
+syntax = "proto3";
+
+package booking_service;
+
+service DoctorTimeService {
+  // doctorTime
+  rpc CreateDoctorTime(CreateDoctorTimeReq) returns (DoctorTime);
+  rpc GetDoctorTime(DoctorTimeFieldValueReq) returns (DoctorTime);
+  rpc GetDoctorTimeByDoctorID(DoctorTimeFieldValueByIdReq) returns (Hours);
+  rpc GetAllDoctorTimes(GetAllDoctorTimesReq) returns (DoctorTimes);
+  rpc UpdateDoctorTime(UpdateDoctorTimeReq) returns (DoctorTime);
+  rpc DeleteDoctorTime(DoctorTimeFieldValueReq) returns (DoctorTimeDeleteStatus);
+  rpc GeDoctorTimeStatus(DoctorTimeStatusReq) returns (DoctorTimeStatus);
+  rpc UpdateTimeStatus(DoctorTimeUpdateStatusReq) returns (DoctorTimeStatus);
+}
+
+message Hours{
+  repeated string hours = 1;
+}
+
+message DoctorTimeFieldValueByIdReq{
+  string doctor_id = 1;
+  string doctor_date = 2;
+}
+
+message DoctorTimeStatusReq{
+  string department_id = 1;
+  string doctor_id = 2;
+  string doctor_date = 3;
+  string start_time = 4;
+}
+
+message DoctorTimeUpdateStatusReq{
+  string department_id = 1;
+  string doctor_id = 2;
+  string doctor_date = 3;
+  string start_time = 4;
+  string  status = 5;
+}
+
+
+message DoctorTimeStatus{
+  string status = 1;
+}
+
+message DoctorTime {
+  int64 id = 1;
+  string department_id = 2;
+  string doctor_id = 3;
+  string doctor_date = 4;
+  string start_time = 5;
+  string end_time = 6;
+  string status = 7;
+  string created_at = 8;
+  string updated_at = 9;
+  string deleted_at = 10;
+}
+
+message DoctorTimes {
+  int64 count = 1;
+  repeated DoctorTime doctor_times = 2;
+}
+
+message CreateDoctorTimeReq {
+  string department_id = 1;
+  string doctor_id = 2;
+  string doctor_date = 3;
+  string start_time = 4;
+  string end_time = 5;
+  string status = 6;
+}
+
+message UpdateDoctorTimeReq {
+  string field = 1;
+  string value = 2;
+  string department_id = 3;
+  string doctor_id = 4;
+  string doctor_date = 5;
+  string start_time = 6;
+  string end_time = 7;
+  string status = 8;
+}
+
+message DoctorTimeFieldValueReq {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+message DoctorTimeDeleteStatus {
+  bool status = 1;
+}
+
+message GetAllDoctorTimesReq {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+  uint64 page = 4;
+  uint64 limit = 5;
+  string order_by = 6;
+}

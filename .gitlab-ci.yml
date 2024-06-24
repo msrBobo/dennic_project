@@ -1,0 +1,61 @@
+
+.deploy_environment:
+  image: docker:19.03.1-dind
+
+stages:
+  - build_dev
+  - deploy_dev
+
+#lint:
+#  only:
+#    - dev
+#  stage: lint
+#  image: golang:1.22
+#  variables:
+#    GOBIN: /go/bin
+#  script:
+#    - go install golang.org/x/lint/golint@latest
+#    - export PATH=$PATH:/go/bin
+#    - golint ./dennic_api_gateway/... ./dennic_booking_service/... ./dennic_healthcare_service/... ./dennic_session_service/... ./dennic_user_service/...
+#    - go vet ./dennic_api_gateway/... ./dennic_booking_service/... ./dennic_healthcare_service/... ./dennic_session_service/... ./dennic_user_service/...
+
+
+#lint:
+#  stage: lint
+#  image: golangci/golangci-lint:v1.50.1
+#  script:
+#    - echo "Linting Go code..."
+#    - ./dennic_api_gateway/golangci-lint run
+#  allow_failure: false
+
+
+build_dev:
+  only:
+    - dev
+  tags:
+    - dennic-runner
+  stage: build_dev
+  extends: .deploy_environment
+  script:
+    - docker build -t dennic/api ./dennic_api_gateway
+    - docker build -t dennic/admin_api ./dennic_admin_api_gateway
+    - docker build -t dennic/booking ./dennic_booking_service
+    - docker build -t dennic/healthcare ./dennic_healthcare_service
+    - docker build -t dennic/session ./dennic_session_service
+    - docker build -t dennic/user ./dennic_user_service
+
+deploy_dev:
+  stage: deploy_dev
+  only:
+    - dev
+  tags:
+    - dennic-runner
+  extends: .deploy_environment
+  script:
+    - docker service update --image dennic/api:latest dev_dennic_api --force
+    - docker service update --image dennic/admin_api:latest dev_dennic_admin_api --force
+    - docker service update --image dennic/booking:latest dev_dennic_booking --force
+    - docker service update --image dennic/healthcare:latest dev_dennic_healthcare --force
+    - docker service update --image dennic/session:latest dev_dennic_session --force
+    - docker service update --image dennic/user:latest dev_dennic_user --force
+  environment: dev

@@ -1,0 +1,1 @@
+ALTER TABLE booked_appointments ADD COLUMN user_id uuid;

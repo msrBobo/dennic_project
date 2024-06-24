@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+package healthcare;
+
+service DoctorWorkingHoursService {
+  rpc CreateDoctorWorkingHours(Doctor_working_hours) returns (Doctor_working_hours);
+  rpc GetDoctorWorkingHoursById(GetReqInt) returns (Doctor_working_hours);
+  rpc GetAllDoctorWorkingHours(GetAllDoctorWorkingHoursReq) returns (ListDoctorWorkingHours);
+  rpc UpdateDoctorWorkingHours(Doctor_working_hours) returns (Doctor_working_hours);
+  rpc DeleteDoctorWorkingHours(GetReqInt) returns (StatusDoctorWorkingHours);
+}
+
+message GetReqInt{
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+  string day_of_week = 4;
+}
+
+message DelReqInt{
+  int32 id = 1;
+  bool is_active = 2;
+  bool is_hard_deleted = 3;
+}
+
+message StatusDoctorWorkingHours {
+  bool status = 1;
+}
+
+
+message GetAllDoctorWorkingHoursReq {
+  int64 page = 1;
+  int64 limit = 2;
+  string field = 3;
+  string value = 4;
+  string order_by = 5;
+  bool is_active = 6;
+}
+
+message Doctor_working_hours {
+  int32 id = 1;
+  string doctor_id = 2;
+  string day_of_week = 3;
+  string start_time = 4;
+  string finish_time = 5;
+  string created_at = 6;
+  string updated_at = 7;
+  string deleted_at = 8;
+}
+
+message ListDoctorWorkingHours {
+  repeated Doctor_working_hours dwh = 1;
+  int32 count = 2;
+}
+

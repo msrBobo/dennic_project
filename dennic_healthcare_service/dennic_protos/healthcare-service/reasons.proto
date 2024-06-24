@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package healthcare;
+
+
+service ReasonsService {
+  rpc CreateReasons(Reasons) returns (Reasons);
+  rpc GetReasonsById(GetReqStrReasons) returns (Reasons);
+  rpc GetAllReasons(GetAllReas) returns (ListReasons);
+  rpc UpdateReasons(Reasons) returns (Reasons);
+  rpc DeleteReasons(GetReqStrReasons) returns (StatusReasons);
+}
+
+message GetReqStrReasons {
+  string field = 1;
+  string value = 2;
+  bool is_active = 3;
+}
+
+
+message Reasons {
+  string id = 1;
+  string name = 2;
+  string specialization_id = 3;
+  string image_url = 4;
+  string created_at = 5;
+  string updated_at = 6;
+  string deleted_at = 7;
+}
+
+message ListReasons {
+  repeated Reasons reasons = 1;
+  int32 count = 2;
+}
+
+message GetAllReas {
+  int32 page = 1;
+  int32 limit = 2;
+  bool is_active = 3;
+  string field = 4;
+  string value = 5;
+  string order_by = 6;
+}
+
+message StatusReasons {
+  bool status = 1;
+}
